@@ -42,7 +42,7 @@
     <linkfile dest="kernel_platform/build/abi" src="abi"/>
     <linkfile dest="kernel_platform/build/static_analysis" src="static_analysis"/>
   </project>
-  <project remote="xperia" name="msm-5.15" path="kernel_platform/common" revision="common">
+  <project remote="clo-la" name="kernel/common" path="kernel_platform/common" revision="fc3ca9d8e717f3231ecb41ccca6d22019746457b" upstream="refs/heads/ks-kernel.lnx.2.0.r1-rel" groups="qki">
     <linkfile dest=".source_date_epoch_dir" src="."/>
   </project>
   <project remote="xperia" name="msm-5.15" path="kernel_platform/msm-kernel"/>
